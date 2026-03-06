@@ -191,46 +191,6 @@
             "user_editable": true,
             "rules": "required|boolean",
             "field_type": "text"
-        },
-        {
-            "name": "Install Metamod",
-            "description": "Install Metamod:Source during setup.",
-            "env_variable": "INSTALL_METAMOD",
-            "default_value": "true",
-            "user_viewable": false,
-            "user_editable": false,
-            "rules": "required|in:true,false",
-            "field_type": "text"
-        },
-        {
-            "name": "Install SourceMod",
-            "description": "Install SourceMod during setup.",
-            "env_variable": "INSTALL_SOURCEMOD",
-            "default_value": "true",
-            "user_viewable": false,
-            "user_editable": false,
-            "rules": "required|in:true,false",
-            "field_type": "text"
-        },
-        {
-            "name": "Install NoLobbyReservation",
-            "description": "Install NoLobbyReservation plugin during setup.",
-            "env_variable": "INSTALL_NOLOBBY",
-            "default_value": "true",
-            "user_viewable": false,
-            "user_editable": false,
-            "rules": "required|in:true,false",
-            "field_type": "text"
-        },
-        {
-            "name": "Extra SteamCMD Flags",
-            "description": "Extra flags passed to steamcmd app_update (e.g. -beta prerelease).",
-            "env_variable": "EXTRA_FLAGS",
-            "default_value": "",
-            "user_viewable": false,
-            "user_editable": false,
-            "rules": "nullable|string|max:128",
-            "field_type": "text"
         }
     ]
 }
